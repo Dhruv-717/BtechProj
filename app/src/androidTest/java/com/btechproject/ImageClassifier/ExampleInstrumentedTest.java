@@ -14,7 +14,7 @@
  *    limitations under the License.
  */
 
-package com.mindorks.tensorflowexample;
+package com.btechproject.ImageClassifier;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -37,6 +37,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.mindorks.tensorflowexample", appContext.getPackageName());
+        assertEquals("com.mindorks.ImageClassifier", appContext.getPackageName());
     }
 }

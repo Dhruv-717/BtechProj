@@ -10,9 +10,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#4A148C"
+    android:background="#e5e5e5"
     android:orientation="vertical"
-    tools:context="com.mindorks.tensorflowexample.MainActivity">
+    tools:context="com.btechproject.ImageClassifier.MainActivity">
 
     <com.wonderkiln.camerakit.CameraView
         android:id="@+id/cameraView"
@@ -51,7 +51,7 @@
     android:layout_marginTop="8dp"
     android:paddingRight="14dp"
     android:textColor="@android:color/white"
-    android:backgroundTint="@color/colorPrimaryDark"/>
+    android:background="@drawable/button_round"/>
     <!--android:layout_gravity="center|top"-->
     <!--android:layout_gravity="bottom|center"-->
    <LinearLayout
@@ -66,18 +66,24 @@
            android:layout_width="48dp"
            android:layout_height="48dp"
            android:layout_marginRight="8dp"
-           android:background="@drawable/ic_camera_switch"
+           android:background="@drawable/ic_camera_swap"
            android:textAllCaps="false"
            android:textColor="@android:color/black" />
 
        <Button
            android:id="@+id/btnDetectObject"
-           android:layout_width="48dp"
-           android:layout_height="48dp"
-           android:background="@drawable/ic_show_classification_new"
+           android:layout_width="45dp"
+           android:layout_height="45dp"
+           android:layout_marginRight="8dp"
+           android:background="@drawable/ic_search"
            android:textAllCaps="false"
            android:textColor="@android:color/black"
            android:visibility="visible" />
+       <Button
+           android:layout_width="48dp"
+           android:layout_height="48dp"
+           android:id="@+id/buttonLoadPicture"
+           android:background="@drawable/ic_gallery"/>
    </LinearLayout>
     <ImageView
     android:id="@+id/imageViewResult"

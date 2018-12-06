@@ -1,4 +1,4 @@
-package com.mindorks.tensorflowexample;
+package com.btechproject.ImageClassifier;
 
 import android.content.Intent;
 import android.os.Handler;

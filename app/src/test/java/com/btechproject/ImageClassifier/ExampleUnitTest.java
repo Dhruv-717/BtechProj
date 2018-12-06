@@ -14,7 +14,7 @@
  *    limitations under the License.
  */
 
-package com.mindorks.tensorflowexample;
+package com.btechproject.ImageClassifier;
 
 import org.junit.Test;
 
